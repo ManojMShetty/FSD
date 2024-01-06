@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+    color: #ecf1e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #18171703;
+    color: #f87307;
+    padding: 10px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.car-card {
+    position: relative;
+    border: 2px solid #333;
+    border-radius: 8px;
+    margin: 15px;
+    background-color: #212121;
+    box-shadow: 0 4px 8px rgba(255, 250, 250, 0.2);
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+}
+
+.tags {
+    color: #e86d20;
+    background: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tags:hover {
+    text-decoration: underline;
+}
+
+.bikes-tag,
+.back-tag {
+    background: none;
+    color: #ed9211;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+}
+
+.bikes-tag {
+    RIGHT: 20px;
+}
+
+.back-tag {
+    right: 20px;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+}
+
+.car-title {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0460f4;
+}
+
+.car-price {
+    color: #49f4ee;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.car-description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.car-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
